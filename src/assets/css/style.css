@@ -2,7 +2,7 @@
 /* ***sidebar*** */
 .sidebar {
   height: 100%;
-  width: 200px;
+  width: 100px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -55,8 +55,8 @@
 
 .topnav--logo{
     margin-left: 10px;
-    position: sticky;
-    left: 0;
+    position: relative;
+    left: 0 !important;
 }
 
 /* second bar */
